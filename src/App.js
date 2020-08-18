@@ -4,7 +4,7 @@ import Navbar from './components/navbar/Navbar';
 import Search from './components/Search/Search';
 
 function App() {
-  const [searchtxt, setSearchtxt] = useState('tst')
+  const [searchtxt, setSearchtxt] = useState('')
 
   function handlesearchtxt(txt) {
     setSearchtxt(txt)
@@ -13,7 +13,7 @@ function App() {
   return (
     <div>
       <Navbar searchtxt={handlesearchtxt}/>
-      <Search/>
+      <Search q={searchtxt}/>
     </div>
   );
 }
