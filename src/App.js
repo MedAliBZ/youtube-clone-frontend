@@ -1,5 +1,4 @@
 import React , {useState,setState}from 'react';
-import './App.css';
 import Navbar from './components/navbar/Navbar';
 import Search from './components/SearchContent/SearchContent';
 

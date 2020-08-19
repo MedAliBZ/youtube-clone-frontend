@@ -1,7 +1,7 @@
 import React from 'react'
-import './Card.css'
+import './VideoCard.css'
 
-export default function Card({thumbnail,title,channelTitle,description}) {
+export default function Card({kind,thumbnail,title,channelTitle,description}) {
     return (
         <div className='card'>
             <img className='card_image' src={thumbnail}/>

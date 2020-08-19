@@ -1,3 +1,7 @@
+a{
+    text-decoration: none;
+}
+
 .search{
     background-color: #F9F9F9;
     min-height: calc(100vh - 60px);
