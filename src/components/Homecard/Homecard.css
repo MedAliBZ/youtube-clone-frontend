@@ -1,0 +1,17 @@
+.home_image{
+    margin: 1%;
+    width: 320px;
+}
+
+.card_info{
+    margin-top:3%;
+}
+
+.Home_card_artist_title{
+    margin-top:3%;
+    color: #757575;
+}
+
+.Home_card_title{
+    font-weight: 500;
+}

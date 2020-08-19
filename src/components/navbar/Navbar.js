@@ -7,16 +7,18 @@ import Avatar from '@material-ui/core/Avatar';
 import NotificationsIcon from '@material-ui/icons/Notifications';
 import AppsIcon from '@material-ui/icons/Apps';
 import VideoCallIcon from '@material-ui/icons/VideoCall';
+import {Link} from 'react-router-dom'
 
 
 
 
-export default function Navbar({ searchtxt }) {
+export default function Navbar({match, searchtxt }) {
     useEffect(() => {
         document.querySelector('.search_text').addEventListener("keydown", (e) => {
             if (e.key === 'Enter') {
                 e.preventDefault()
                 searchtxt(document.querySelector('.search_text').value)
+                
             }
         })
     })
@@ -25,7 +27,7 @@ export default function Navbar({ searchtxt }) {
         <div className='header'>
             <div className='header_menu'>
                 <IconButton className='bouton'><MenuIcon /></IconButton>
-                <img className='header_logo' src='/youtube.png' />
+                <Link to='/'><img className='header_logo' src='/youtube.png' /></Link>
             </div>
             <div className='header_search'>
                 <input className='search_text' type='text' placeholder='Search'></input>

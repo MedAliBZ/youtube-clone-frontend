@@ -9,7 +9,7 @@ export default function Search({ q }) {
     const [data, setData] = useState()
 
     useEffect(() => {
-        q ? fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${q}&key=AIzaSyCJ71ybRJ9Hi4fd_cse8WMjy6Ile9LFYl8&maxResults=25`)
+        q ? fetch(`https://www.googleapis.com/youtube/v3/search?part=snippet&q=${q}&key=AIzaSyB-re3S2EeWqXdoqsfd4v3BT-JRJN_ZA-4&maxResults=25`)
             .then(res => { return res.json() })
             .then(data => setData(data.items))
             .catch(err => console.log(err)) : console.log("you must write something")

@@ -1,0 +1,15 @@
+.lien:active,.lien:hover,.lien{
+    text-decoration: none!important;
+    margin: 1%;
+    color: black;
+}
+
+.home{
+    background-color:#F9F9F9;
+    min-height: calc(100vh - 60px);
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+}
+
