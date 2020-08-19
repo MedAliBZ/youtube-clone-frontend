@@ -1,5 +1,5 @@
 import React,{useEffect,useState,setState} from 'react'
-import './Search.css'
+import './SearchContent.css'
 import TuneIcon from '@material-ui/icons/Tune';
 import Card from '../card/Card'
 

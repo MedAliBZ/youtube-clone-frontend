@@ -49,7 +49,7 @@
     color: #75758ac2;
 }
 
-.search_button:hover,.search_button:active{
+.search_button:hover,.search_button:focus,.search_button:active{
     
     background-color: #F0F0F0;
     border: 1px solid #afafaf;

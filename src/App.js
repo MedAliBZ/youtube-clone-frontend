@@ -1,7 +1,7 @@
 import React , {useState,setState}from 'react';
 import './App.css';
 import Navbar from './components/navbar/Navbar';
-import Search from './components/Search/Search';
+import Search from './components/SearchContent/SearchContent';
 
 function App() {
   const [searchtxt, setSearchtxt] = useState('')
