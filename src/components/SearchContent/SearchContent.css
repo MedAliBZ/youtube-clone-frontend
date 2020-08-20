@@ -26,3 +26,31 @@ a{
     margin-left: 1%;
     cursor: pointer;
 }
+
+.download a{
+    margin-right: 5%;
+}
+
+.download{
+    display:flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.downloadbutton{
+    justify-self: flex-end;
+    align-self: center;
+    text-align: center;
+    
+}
+
+@media only screen and (max-width: 1000px){
+    .downloadbutton{
+        justify-self: flex-end;
+        align-self: center;
+        margin-left: 85px;
+    }
+    .download a{
+        margin-right: 0;
+    }
+}
