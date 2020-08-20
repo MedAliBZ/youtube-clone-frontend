@@ -1,0 +1,4 @@
+A youtube clone, with a working search bar that takes you to a list of videos/channels related to your search.
+Whenever you click a video or a channel it takes to the real link in a new tab, if you click the youtube logo in he navbar it will take you back to the home page.
+A download mp3 button linked to an api.
+Working on videos tri...
