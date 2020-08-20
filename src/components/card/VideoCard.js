@@ -4,7 +4,7 @@ import './VideoCard.css'
 export default function Card({kind,thumbnail,title,channelTitle,description}) {
     return (
         <div className='card'>
-            <img className='card_image' src={thumbnail}/>
+            <img className='card_image' alt="thumbnail" src={thumbnail}/>
             <div className='card_caption'>
                 <p className='card_title'>{title}</p>
                 <p className='card_artist'>{channelTitle}</p>

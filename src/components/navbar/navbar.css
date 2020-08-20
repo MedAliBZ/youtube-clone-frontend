@@ -1,5 +1,6 @@
 a{
     align-self: center;
+    border: none;
 }
 
 .header{
@@ -42,10 +43,12 @@ a{
 }
 
 .search_button{
-    width: 20%;
-    max-width: 70px;
+    width: 20%!important;
+    max-width: 70px!important;
     border-radius: 4%;
     border: 1px solid #CCCCCC;
+    background-color: #F0F0F0;
+    height: 28px;
     margin-left: -1%;
     display: flex;
     align-items: center;
@@ -54,7 +57,6 @@ a{
 }
 
 .search_button:hover,.search_button:focus,.search_button:active{
-    
     background-color: #F0F0F0;
     border: 1px solid #afafaf;
     margin-left: -1%;
