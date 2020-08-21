@@ -1,0 +1,15 @@
+.whole_filter{
+    display: flex;
+    flex-direction: column;
+    margin: 3%;
+}
+
+.filter_tri{
+    color: #030303!important;
+    font-weight: 500;
+    font-size: small;
+    width: 200px;
+    padding-right: 10%;
+    padding-bottom: 1%;
+    border-bottom: 1px solid #ECECEC;
+}

@@ -19,6 +19,16 @@ a{
     align-items: center;
 }
 
+.filtring{
+    height: 40px;
+    margin:0 2%;
+    color: #6d6d6d;
+    font-weight: 500;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
 .filter_icon{
     cursor: pointer;
 }
