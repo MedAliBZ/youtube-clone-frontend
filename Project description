@@ -1,6 +1,6 @@
 A youtube clone, with a working search bar that takes you to a list of videos/channels related to your search.
 Whenever you click a video or a channel it takes to the real link in a new tab, if you click the youtube logo in the navbar it will take you back to the home page.
 A download mp3 button linked to an api.
-By clicking "Filter" in the search page, you will toggle a menu that let you filter the videos and your choice with bold.
+By clicking "Filter" in the search page, you will toggle a menu that let you filter the videos and your selected choice will appear bold.
 
 Note: youtube's api is the worst you have a limited number of request everyday so please do not spam the search.

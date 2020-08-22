@@ -27,11 +27,8 @@ export default function Search({ q }) {
             .then(res => { return res.json() })
             .then(data => setData(data?.items))
             .catch(err => {console.log(err); }) : console.log("you must write something")
-    }, [q,filtr])
-
-    useEffect(() => {
-        console.log(filtr)
-    }, [filtr])
+            return undefined;
+        }, [q,filtr])
 
     return (
         <div className='search'>
